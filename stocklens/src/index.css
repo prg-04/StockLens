@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}
+
+.login {
+  display: grid;
+  place-items: center;
+}
+
+.login h1 {
+  color: #de3896;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.login > button {
+  margin-top: 1.5rem;
+  color: #de3896;
+  background-color: #111;
+  border: 1px solid #de3896;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.card {
+  background-image: url('./assets/michael-fortsch.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #3cff00;
+}
+
+.card2 {
+  background-image: url('./assets/bg4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: chartreuse;
+}
